@@ -1,0 +1,65 @@
+1.Ans:-
+Conditional operators in Java include == (equal to), != (not equal to), > (greater than), < (less than), >= (greater than or equal to), and <= (less than or equal to).
+
+2.Ans:-
+Operators in Java can be categorized based on the number of operands they require:
+Unary operators (operate on one operand)
+Binary operators (operate on two operands)
+Ternary operator (conditional operator ?:, which operates on three operands)
+
+3.Ans:-
+The syntax of a switch-case statement in Java is as follows:
+switch (expression) {
+    case value1:
+        // statements
+        break;
+    case value2:
+        // statements
+        break;
+    // more cases as needed
+    default:
+        // default statements
+}
+
+4.Ans:-
+The priority levels (precedence) of arithmetic operations in Java follow the PEMDAS/BODMAS rule:
+Parentheses ()
+Exponents **
+Multiplication *, Division /, Remainder %
+Addition +, Subtraction -
+
+5.Ans:-
+Conditional statements in Java include:
+if statement
+if-else statement
+if-else-if ladder
+switch statement
+
+6.Ans:-
+The syntax of an if-else statement in Java is as follows:
+if (condition) {
+    // statements to execute if condition is true
+} else {
+    // statements to execute if condition is false
+}
+
+7.Ans:-
+The three types of iterative (looping) statements in Java are:
+for loop
+while loop
+do-while loop
+
+8.Ans:-
+The main difference between for and do-while loops is that the for loop executes its body zero or more times based on a condition before each iteration, while the do-while loop executes its body at least once, and then repeats it as long as a specified condition is true.
+Program to Print Numbers from 1 to 10:
+
+9.Ans:-
+Here's a simple Java program to print numbers from 1 to 10:
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+    }
+}
+This program uses a for loop to iterate from 1 to 10, and within each iteration, it prints the value of the loop variable i.
